@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-formpost',
@@ -12,4 +13,5 @@ export class FormpostComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
 }

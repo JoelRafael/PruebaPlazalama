@@ -7,6 +7,7 @@ import { TabledateComponent } from './tabledate/tabledate.component';
 import {ServiceService} from './servicio/service.service';
 import {HttpClientModule} from '@angular/common/http';
 import { FormpostComponent } from './formpost/formpost.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormpostComponent } from './formpost/formpost.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [ServiceService],
   bootstrap: [AppComponent]
